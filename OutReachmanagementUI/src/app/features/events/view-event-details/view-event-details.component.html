@@ -1,0 +1,192 @@
+<div class="card card-width">
+    <div class="card-header card-header-bg-color">
+        <span> EVENT & BENEFICIARY DETAILS <button type="button" style="margin-left:90%;"
+                class="btn btn-primary btn-sm minus-panel-btn-style"><i class="fa fa-minus"
+                    aria-hidden="true"></i></button> <button type="button"
+                class="btn btn-primary btn-sm cross-panel-btn-style"><i class="fa fa-times"
+                    aria-hidden="true"></i></button> <button type="button"
+                class="btn btn-primary btn-sm replay-panel-btn-style"><i class="fa fa-reply"
+                    aria-hidden="true"></i></button> </span>
+    </div>
+    <div class="card-body">
+        <div class="card sub-card-width" style="float: left;">
+            <div class="card-header card-header-bg-color">
+                <span class="card-hd-lf-align"> ID: {{eventDetails?.eventId}}
+                </span>
+                <span class="card-hd-rt-align">Date:
+                    {{eventDetails?.eventDate}}</span>
+            </div>
+            <div class="card-body">
+                <div class="event-name-style">{{eventDetails?.eventName}}</div>
+
+                <div class="event-desc-style">{{eventDetails?.eventDescription}}</div>
+                <div class="row grey-panel-style">
+                    <div class="event-status-style">Status: <button type="button"
+                            class="btn btn-primary btn-sm status-btn-style">{{eventDetails?.status}}</button></div>
+                    <div class="event-category-style">Category: {{eventDetails?.category}}</div>
+                </div>
+            </div>
+        </div>
+        <div class="card sub-card-width" style="padding-left: 2%;float: right;">
+            <div class="card-header card-header-bg-color">
+                <span class="card-hd-lf-align"> Location: {{eventDetails?.baseLocation}} </span>
+                <span class="card-hd-rt-align">Outreach: {{eventDetails?.councilName}}</span>
+
+            </div>
+            <div class="card-body">
+                <div class="event-name-style">{{eventDetails?.beneficiaryName}}</div>
+
+                <div class="event-desc-style">{{eventDetails?.venueAddress}}</div>
+                <div class="row grey-panel-style">
+                    <div class="event-status-style">Feedbacks: <button type="button"
+                            class="btn btn-primary btn-sm feedback-btn-style">0</button></div>
+                    <div class="event-category-style">Average Rating: <button type="button"
+                            class="btn btn-primary btn-sm rating-btn-style">0</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card-width row">
+    <div class="card tri-card-width  col-lg-4" style="float: left;">
+        <div class="card-header card-header-bg-color">
+            <span> PARTICIPATED <button type="button" style="margin-left:70%;"
+                    class="btn btn-primary btn-sm minus-panel-btn-style"><i class="fa fa-minus"
+                        aria-hidden="true"></i></button> <button type="button"
+                    class="btn btn-primary btn-sm cross-panel-btn-style"><i class="fa fa-times"
+                        aria-hidden="true"></i></button> <button type="button"
+                    class="btn btn-primary btn-sm replay-panel-btn-style"><i class="fa fa-reply"
+                        aria-hidden="true"></i></button> </span>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table statistics-border-color">
+                    <tr *ngFor="let col of particpatedRatingColumns; let key of particpatedRatingKeys;">
+                        <td *ngFor="let data of participatedRatings">
+                            {{col}}: {{data[key]}} <br></td>
+
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="card tri-card-width  col-lg-4">
+        <div class="card-header card-header-bg-color">
+            <span> NOT PARTICIPATED <button type="button" style="margin-left:70%;"
+                    class="btn btn-primary btn-sm minus-panel-btn-style"><i class="fa fa-minus"
+                        aria-hidden="true"></i></button> <button type="button"
+                    class="btn btn-primary btn-sm cross-panel-btn-style"><i class="fa fa-times"
+                        aria-hidden="true"></i></button> <button type="button"
+                    class="btn btn-primary btn-sm replay-panel-btn-style"><i class="fa fa-reply"
+                        aria-hidden="true"></i></button> </span>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table statistics-border-color">
+                    <tr *ngFor="let data of notParticipatedReasons">
+                        <td *ngFor="let col of notParticipatedKeys">
+                            {{data[col]}} <br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="card tri-card-width  col-lg-4" style="float: right;">
+        <div class="card-header card-header-bg-color">
+            <span> UNREGISTERED <button type="button" style="margin-left:70%;"
+                    class="btn btn-primary btn-sm minus-panel-btn-style"><i class="fa fa-minus"
+                        aria-hidden="true"></i></button> <button type="button"
+                    class="btn btn-primary btn-sm cross-panel-btn-style"><i class="fa fa-times"
+                        aria-hidden="true"></i></button> <button type="button"
+                    class="btn btn-primary btn-sm replay-panel-btn-style"><i class="fa fa-reply"
+                        aria-hidden="true"></i></button> </span>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table statistics-border-color">
+                    <tr *ngFor="let data of unregisteredReasons">
+                        <td *ngFor="let col of unregisteredKeys">
+                            {{data[col]}} <br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="card-width row">
+        <div class="card sub-card-width  col-lg-6">
+            <div class="card-header card-header-bg-color">
+                <span> STATISTICS <button type="button" style="margin-left:80%;"
+                        class="btn btn-primary btn-sm minus-panel-btn-style"><i class="fa fa-minus"
+                            aria-hidden="true"></i></button> <button type="button"
+                        class="btn btn-primary btn-sm cross-panel-btn-style"><i class="fa fa-times"
+                            aria-hidden="true"></i></button> <button type="button"
+                        class="btn btn-primary btn-sm replay-panel-btn-style"><i class="fa fa-reply"
+                            aria-hidden="true"></i></button> </span>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table  overflow-wrap-hack">
+                        <tr class="card-header-bg-color">
+
+
+                            <th *ngFor="let col of statisticsColumns" class="td-border-color">
+                                {{col}}
+                            </th>
+                        </tr>
+                        <!-- <tr *ngFor="let data of volunteeringStatistics, let i = index">
+                            <td class=" overflow-wrap-hack">{{i+1}}</td>
+                            <td *ngFor="let col of columns" class=" overflow-wrap-hack">
+                                {{data[col]}}
+                            </td>
+                        </tr> -->
+                        <tr>
+
+                            <td>200</td>
+                            <td>{{eventDetails?.totalNoVolunteers}}</td>
+                            <td>{{eventDetails?.totalVolunteersHours}} </td>
+                            <td>{{eventDetails?.overallVolunteeringHours}} </td>
+                            <td>{{eventDetails?.totalTravelHours}} </td>
+                            <td>{{eventDetails?.livesImpacted}} </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="card sub-card-width col-lg-6" style="float: right;">
+            <div class="card-header card-header-bg-color">
+                <span> POC DETAILS <button type="button" style="margin-left:80%;"
+                        class="btn btn-primary btn-sm minus-panel-btn-style"><i class="fa fa-minus"
+                            aria-hidden="true"></i></button> <button type="button"
+                        class="btn btn-primary btn-sm cross-panel-btn-style"><i class="fa fa-times"
+                            aria-hidden="true"></i></button> <button type="button"
+                        class="btn btn-primary btn-sm replay-panel-btn-style"><i class="fa fa-reply"
+                            aria-hidden="true"></i></button> </span>
+            </div>
+            <div class="card-body">
+                <!-- <app-config-poc></app-config-poc> -->
+
+                <div class="table-responsive overflow-wrap-hack">
+                    <table class="table">
+                        <tr class="card-header-bg-color">
+
+                            <th class="td-border-color">#</th>
+                            <th *ngFor="let col of pocColumns" class="td-border-color">
+                                {{col}}
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>{{eventDetails?.pocId}}</td>
+
+                            <td>{{eventDetails?.pocName}}</td>
+                            <td>{{eventDetails?.pocContactNumber}} </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

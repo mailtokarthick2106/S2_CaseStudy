@@ -1,0 +1,16 @@
+package com.outreach.management.services;
+
+import com.outreach.management.collections.NotParticipatedFeedbackCollection;
+import com.outreach.management.collections.ParticpatedFeedbackCollection;
+import com.outreach.management.collections.UnregisteredFeedbackCollection;
+import com.outreach.management.dto.NotParticipatedFeedbackDTO;
+import com.outreach.management.dto.ParticipatedFeedbackDTO;
+import com.outreach.management.dto.UnregisteredFeedbackDTO;
+
+public interface ProcessFeedbackService {
+	ParticpatedFeedbackCollection processParticpatedFeedback(ParticipatedFeedbackDTO participatedFeedbackDTO);
+
+	NotParticipatedFeedbackCollection processNotParticpatedFeedback(NotParticipatedFeedbackDTO notParticipatedFeedbackDTO);
+
+	UnregisteredFeedbackCollection processUnregisteredFeedback(UnregisteredFeedbackDTO unregisteredFeedbackDTO);
+}

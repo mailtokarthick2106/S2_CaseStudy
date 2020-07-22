@@ -1,0 +1,837 @@
+Linting "app-feedback-management"...
+
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/app.component.ts:12:3 - Lifecycle interface OnInit should be implemented for method ngOnInit. (https://angular.io/styleguide#style-09-01)
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/config-pmo/config-pmo.component.ts:23:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/config-pmo/config-pmo.component.ts:24:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/config-pmo/config-pmo.component.ts:25:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/config-pmo/config-pmo.component.ts:28:3 - Lifecycle interface OnDestroy should be implemented for method ngOnDestroy. (https://angular.io/styleguide#style-09-01)
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/config-poc/config-poc.component.ts:16:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/config-poc/config-poc.component.ts:17:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/config-poc/config-poc.component.ts:18:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/config-poc/config-poc.component.ts:19:7 - statements are not aligned
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/feedback-questions/feedback-questions.component.ts:17:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/feedback-questions/feedback-questions.component.ts:18:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/configuration/feedback-questions/feedback-questions.component.ts:19:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:14:1 - Exceeds maximum line length of 140
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:25:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:25:32 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:25:41 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:26:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:27:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:28:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:29:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:30:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:31:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:32:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:33:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:34:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:35:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:36:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:37:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:38:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:39:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:40:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:41:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:42:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/dashboard/split-view-event-details/split-view-event-details.component.ts:43:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:47:7 - parameters are not aligned
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:52:75 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:74:23 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:74:34 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:74:43 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:75:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:76:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:77:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:78:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:79:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:80:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:81:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:82:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:83:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:84:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:85:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:86:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:87:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:88:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:89:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:90:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:91:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:92:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:93:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:93:32 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:93:41 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:94:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:95:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:96:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:97:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:98:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:99:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:100:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:101:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:102:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:103:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:104:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:105:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:106:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:107:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:108:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:109:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:110:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:111:7 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:138:3 - Lifecycle interface OnDestroy should be implemented for method ngOnDestroy. (https://angular.io/styleguide#style-09-01)
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:286:1 - Exceeds maximum line length of 140
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:352:9 - Identifier 'eventData' is never reassigned; use 'const' instead of 'let'.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:360:90 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:368:49 - Unnecessarily quoted property 'data' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:375:5 - Use of debugger statements is forbidden
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/events.component.ts:380:26 - object access via string literals is disallowed
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/model/event.model.ts:23:2 - Unnecessary semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/services/view-event-reports.service.ts:17:23 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/services/view-event-reports.service.ts:27:86 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/services/view-event-reports.service.ts:46:89 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:16:34 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:17:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:18:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:19:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:20:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:21:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:22:31 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:23:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:24:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:25:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:26:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:27:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:29:24 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:30:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:31:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:35:36 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:36:33 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:37:36 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:38:41 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:38:52 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:38:61 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:39:38 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:39:48 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:39:57 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:40:24 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:40:33 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:40:44 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:44:5 - parameters are not aligned
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:60:5 - Use of debugger statements is forbidden
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:73:5 - Use of debugger statements is forbidden
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:78:53 - Unnecessarily quoted property 'feedbackType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:79:56 - Unnecessarily quoted property 'feedbackType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/events/view-event-details/view-event-details.component.ts:80:53 - Unnecessarily quoted property 'feedbackType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/feedback-forms/feedback-form-routing.moule.ts:20:43 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/login/login.component.ts:64:24 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/login/login.component.ts:73:6 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/login/login.component.ts:74:5 - Use of debugger statements is forbidden
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/login/login.component.ts:81:13 - Use of debugger statements is forbidden
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/login/services/login.service.ts:12:23 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/signup/services/signup.service.ts:12:23 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/signup/signup.component.ts:18:28 - Type string trivially inferred from a string literal, remove type annotation
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/signup/signup.component.ts:19:24 - Type string trivially inferred from a string literal, remove type annotation
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/signup/signup.component.ts:35:29 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/signup/signup.component.ts:57:9 - Identifier 'userDetails' is never reassigned; use 'const' instead of 'let'.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/signup/signup.component.ts:65:5 - Use of debugger statements is forbidden
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/features/signup/signup.component.ts:73:33 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:3:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:3:9 - Unnecessarily quoted property 'EventID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:3:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:4:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:4:9 - Unnecessarily quoted property 'Month' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:4:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:5:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:5:9 - Unnecessarily quoted property 'BaseLocation' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:5:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:6:9 - Unnecessarily quoted property 'BeneficiaryName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:6:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:6:28 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:7:9 - Unnecessarily quoted property 'VenueAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:7:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:7:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:8:9 - Unnecessarily quoted property 'CouncilName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:8:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:8:24 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:9:9 - Unnecessarily quoted property 'Project' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:9:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:9:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:10:9 - Unnecessarily quoted property 'Category' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:10:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:10:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:11:9 - Unnecessarily quoted property 'EventName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:11:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:11:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:12:1 - Exceeds maximum line length of 140
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:12:9 - Unnecessarily quoted property 'EventDescription' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:12:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:12:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:13:9 - Unnecessarily quoted property 'EventDate' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:13:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:13:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:14:9 - Unnecessarily quoted property 'TotalNoVolunteers' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:14:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:14:30 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:15:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:15:9 - Unnecessarily quoted property 'TotalVolunteersHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:15:33 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:16:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:16:9 - Unnecessarily quoted property 'TotalTravelHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:16:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:17:9 - Unnecessarily quoted property 'OverallVolunteeringHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:17:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:17:37 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:18:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:18:9 - Unnecessarily quoted property 'LivesImpacted' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:18:26 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:19:9 - Unnecessarily quoted property 'ActivityType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:19:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:19:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:20:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:20:9 - Unnecessarily quoted property 'Status' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:20:19 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:21:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:21:9 - Unnecessarily quoted property 'POCID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:21:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:22:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:22:9 - Unnecessarily quoted property 'POCName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:22:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:23:9 - Unnecessarily quoted property 'POCContactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:23:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:23:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:26:9 - Unnecessarily quoted property 'EventID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:26:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:26:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:27:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:27:9 - Unnecessarily quoted property 'Month' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:27:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:28:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:28:9 - Unnecessarily quoted property 'BaseLocation' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:28:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:29:9 - Unnecessarily quoted property 'BeneficiaryName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:29:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:29:28 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:30:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:30:9 - Unnecessarily quoted property 'VenueAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:30:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:31:9 - Unnecessarily quoted property 'CouncilName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:31:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:31:24 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:32:9 - Unnecessarily quoted property 'Project' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:32:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:32:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:33:9 - Unnecessarily quoted property 'Category' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:33:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:33:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:34:9 - Unnecessarily quoted property 'EventName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:34:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:34:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:35:9 - Unnecessarily quoted property 'EventDescription' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:35:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:35:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:36:9 - Unnecessarily quoted property 'EventDate' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:36:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:36:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:37:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:37:9 - Unnecessarily quoted property 'TotalNoVolunteers' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:37:30 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:38:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:38:9 - Unnecessarily quoted property 'TotalVolunteersHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:38:33 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:39:9 - Unnecessarily quoted property 'TotalTravelHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:39:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:39:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:40:9 - Unnecessarily quoted property 'OverallVolunteeringHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:40:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:40:37 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:41:9 - Unnecessarily quoted property 'LivesImpacted' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:41:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:41:26 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:42:9 - Unnecessarily quoted property 'ActivityType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:42:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:42:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:43:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:43:9 - Unnecessarily quoted property 'Status' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:43:19 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:44:9 - Unnecessarily quoted property 'POCID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:44:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:44:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:45:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:45:9 - Unnecessarily quoted property 'POCName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:45:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:46:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:46:9 - Unnecessarily quoted property 'POCContactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:46:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:49:9 - Unnecessarily quoted property 'EventID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:49:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:49:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:50:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:50:9 - Unnecessarily quoted property 'Month' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:50:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:51:9 - Unnecessarily quoted property 'BaseLocation' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:51:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:51:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:52:9 - Unnecessarily quoted property 'BeneficiaryName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:52:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:52:28 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:53:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:53:9 - Unnecessarily quoted property 'VenueAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:53:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:54:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:54:9 - Unnecessarily quoted property 'CouncilName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:54:24 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:55:9 - Unnecessarily quoted property 'Project' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:55:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:55:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:56:9 - Unnecessarily quoted property 'Category' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:56:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:56:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:57:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:57:9 - Unnecessarily quoted property 'EventName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:57:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:58:1 - Exceeds maximum line length of 140
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:58:9 - Unnecessarily quoted property 'EventDescription' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:58:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:58:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:59:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:59:9 - Unnecessarily quoted property 'EventDate' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:59:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:60:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:60:9 - Unnecessarily quoted property 'TotalNoVolunteers' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:60:30 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:61:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:61:9 - Unnecessarily quoted property 'TotalVolunteersHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:61:33 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:62:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:62:9 - Unnecessarily quoted property 'TotalTravelHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:62:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:63:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:63:9 - Unnecessarily quoted property 'OverallVolunteeringHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:63:37 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:64:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:64:9 - Unnecessarily quoted property 'LivesImpacted' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:64:26 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:65:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:65:9 - Unnecessarily quoted property 'ActivityType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:65:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:66:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:66:9 - Unnecessarily quoted property 'Status' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:66:19 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:67:9 - Unnecessarily quoted property 'POCID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:67:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:67:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:68:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:68:9 - Unnecessarily quoted property 'POCName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:68:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:69:9 - Unnecessarily quoted property 'POCContactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:69:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:69:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:72:9 - Unnecessarily quoted property 'EventID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:72:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:72:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:73:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:73:9 - Unnecessarily quoted property 'Month' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:73:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:74:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:74:9 - Unnecessarily quoted property 'BaseLocation' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:74:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:75:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:75:9 - Unnecessarily quoted property 'BeneficiaryName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:75:28 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:76:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:76:9 - Unnecessarily quoted property 'VenueAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:76:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:77:9 - Unnecessarily quoted property 'CouncilName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:77:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:77:24 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:78:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:78:9 - Unnecessarily quoted property 'Project' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:78:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:79:9 - Unnecessarily quoted property 'Category' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:79:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:79:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:80:9 - Unnecessarily quoted property 'EventName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:80:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:80:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:81:1 - Exceeds maximum line length of 140
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:81:9 - Unnecessarily quoted property 'EventDescription' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:81:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:81:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:82:9 - Unnecessarily quoted property 'EventDate' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:82:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:82:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:83:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:83:9 - Unnecessarily quoted property 'TotalNoVolunteers' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:83:30 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:84:9 - Unnecessarily quoted property 'TotalVolunteersHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:84:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:84:33 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:85:9 - Unnecessarily quoted property 'TotalTravelHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:85:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:85:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:86:9 - Unnecessarily quoted property 'OverallVolunteeringHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:86:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:86:37 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:87:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:87:9 - Unnecessarily quoted property 'LivesImpacted' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:87:26 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:88:9 - Unnecessarily quoted property 'ActivityType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:88:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:88:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:89:9 - Unnecessarily quoted property 'Status' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:89:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:89:19 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:90:9 - Unnecessarily quoted property 'POCID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:90:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:90:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:91:9 - Unnecessarily quoted property 'POCName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:91:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:91:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:92:9 - Unnecessarily quoted property 'POCContactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:92:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:92:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:95:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:95:9 - Unnecessarily quoted property 'EventID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:95:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:96:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:96:9 - Unnecessarily quoted property 'Month' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:96:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:97:9 - Unnecessarily quoted property 'BaseLocation' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:97:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:97:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:98:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:98:9 - Unnecessarily quoted property 'BeneficiaryName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:98:28 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:99:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:99:9 - Unnecessarily quoted property 'VenueAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:99:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:100:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:100:9 - Unnecessarily quoted property 'CouncilName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:100:24 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:101:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:101:9 - Unnecessarily quoted property 'Project' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:101:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:102:9 - Unnecessarily quoted property 'Category' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:102:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:102:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:103:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:103:9 - Unnecessarily quoted property 'EventName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:103:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:104:1 - Exceeds maximum line length of 140
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:104:9 - Unnecessarily quoted property 'EventDescription' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:104:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:104:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:105:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:105:9 - Unnecessarily quoted property 'EventDate' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:105:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:106:9 - Unnecessarily quoted property 'TotalNoVolunteers' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:106:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:106:30 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:107:9 - Unnecessarily quoted property 'TotalVolunteersHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:107:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:107:33 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:108:9 - Unnecessarily quoted property 'TotalTravelHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:108:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:108:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:109:9 - Unnecessarily quoted property 'OverallVolunteeringHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:109:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:109:37 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:110:9 - Unnecessarily quoted property 'LivesImpacted' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:110:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:110:26 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:111:9 - Unnecessarily quoted property 'ActivityType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:111:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:111:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:112:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:112:9 - Unnecessarily quoted property 'Status' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:112:19 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:113:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:113:9 - Unnecessarily quoted property 'POCID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:113:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:114:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:114:9 - Unnecessarily quoted property 'POCName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:114:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:115:9 - Unnecessarily quoted property 'POCContactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:115:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:115:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:118:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:118:9 - Unnecessarily quoted property 'EventID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:118:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:119:9 - Unnecessarily quoted property 'Month' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:119:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:119:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:120:9 - Unnecessarily quoted property 'BaseLocation' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:120:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:120:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:121:9 - Unnecessarily quoted property 'BeneficiaryName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:121:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:121:28 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:122:9 - Unnecessarily quoted property 'VenueAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:122:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:122:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:123:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:123:9 - Unnecessarily quoted property 'CouncilName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:123:24 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:124:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:124:9 - Unnecessarily quoted property 'Project' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:124:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:125:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:125:9 - Unnecessarily quoted property 'Category' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:125:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:126:9 - Unnecessarily quoted property 'EventName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:126:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:126:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:127:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:127:9 - Unnecessarily quoted property 'EventDescription' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:127:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:128:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:128:9 - Unnecessarily quoted property 'EventDate' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:128:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:129:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:129:9 - Unnecessarily quoted property 'TotalNoVolunteers' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:129:30 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:130:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:130:9 - Unnecessarily quoted property 'TotalVolunteersHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:130:33 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:131:9 - Unnecessarily quoted property 'TotalTravelHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:131:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:131:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:132:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:132:9 - Unnecessarily quoted property 'OverallVolunteeringHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:132:37 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:133:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:133:9 - Unnecessarily quoted property 'LivesImpacted' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:133:26 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:134:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:134:9 - Unnecessarily quoted property 'ActivityType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:134:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:135:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:135:9 - Unnecessarily quoted property 'Status' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:135:19 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:136:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:136:9 - Unnecessarily quoted property 'POCID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:136:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:137:9 - Unnecessarily quoted property 'POCName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:137:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:137:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:138:9 - Unnecessarily quoted property 'POCContactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:138:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:138:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:141:9 - Unnecessarily quoted property 'EventID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:141:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:141:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:142:9 - Unnecessarily quoted property 'Month' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:142:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:142:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:143:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:143:9 - Unnecessarily quoted property 'BaseLocation' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:143:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:144:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:144:9 - Unnecessarily quoted property 'BeneficiaryName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:144:28 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:145:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:145:9 - Unnecessarily quoted property 'VenueAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:145:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:146:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:146:9 - Unnecessarily quoted property 'CouncilName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:146:24 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:147:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:147:9 - Unnecessarily quoted property 'Project' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:147:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:148:9 - Unnecessarily quoted property 'Category' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:148:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:148:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:149:9 - Unnecessarily quoted property 'EventName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:149:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:149:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:150:9 - Unnecessarily quoted property 'EventDescription' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:150:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:150:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:151:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:151:9 - Unnecessarily quoted property 'EventDate' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:151:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:152:9 - Unnecessarily quoted property 'TotalNoVolunteers' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:152:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:152:30 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:153:9 - Unnecessarily quoted property 'TotalVolunteersHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:153:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:153:33 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:154:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:154:9 - Unnecessarily quoted property 'TotalTravelHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:154:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:155:9 - Unnecessarily quoted property 'OverallVolunteeringHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:155:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:155:37 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:156:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:156:9 - Unnecessarily quoted property 'LivesImpacted' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:156:26 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:157:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:157:9 - Unnecessarily quoted property 'ActivityType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:157:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:158:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:158:9 - Unnecessarily quoted property 'Status' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:158:19 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:159:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:159:9 - Unnecessarily quoted property 'POCID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:159:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:160:9 - Unnecessarily quoted property 'POCName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:160:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:160:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:161:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:161:9 - Unnecessarily quoted property 'POCContactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:161:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:164:9 - Unnecessarily quoted property 'EventID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:164:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:164:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:165:9 - Unnecessarily quoted property 'Month' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:165:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:165:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:166:9 - Unnecessarily quoted property 'BaseLocation' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:166:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:166:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:167:9 - Unnecessarily quoted property 'BeneficiaryName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:167:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:167:28 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:168:9 - Unnecessarily quoted property 'VenueAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:168:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:168:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:169:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:169:9 - Unnecessarily quoted property 'CouncilName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:169:24 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:170:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:170:9 - Unnecessarily quoted property 'Project' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:170:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:171:9 - Unnecessarily quoted property 'Category' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:171:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:171:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:172:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:172:9 - Unnecessarily quoted property 'EventName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:172:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:173:9 - Unnecessarily quoted property 'EventDescription' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:173:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:173:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:174:9 - Unnecessarily quoted property 'EventDate' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:174:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:174:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:175:9 - Unnecessarily quoted property 'TotalNoVolunteers' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:175:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:175:30 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:176:9 - Unnecessarily quoted property 'TotalVolunteersHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:176:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:176:33 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:177:9 - Unnecessarily quoted property 'TotalTravelHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:177:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:177:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:178:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:178:9 - Unnecessarily quoted property 'OverallVolunteeringHours' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:178:37 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:179:9 - Unnecessarily quoted property 'LivesImpacted' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:179:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:179:26 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:180:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:180:9 - Unnecessarily quoted property 'ActivityType' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:180:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:181:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:181:9 - Unnecessarily quoted property 'Status' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:181:19 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:182:9 - Unnecessarily quoted property 'POCID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:182:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:182:18 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:183:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:183:9 - Unnecessarily quoted property 'POCName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:183:20 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:184:9 - Unnecessarily quoted property 'POCContactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:184:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:184:29 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:186:2 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/event-reports.ts:186:2 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:2:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:2:5 - Unnecessarily quoted property 'Question' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:2:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:3:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:4:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:4:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:7:5 - Unnecessarily quoted property 'Question' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:7:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:7:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:8:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:9:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:9:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:12:5 - Unnecessarily quoted property 'Question' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:12:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:12:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:13:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:14:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:14:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:18:5 - Unnecessarily quoted property 'Question' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:18:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:18:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:19:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:20:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:20:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:23:5 - Unnecessarily quoted property 'Question' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:23:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:23:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:24:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:25:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:25:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:27:2 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/feedback-questions.ts:27:2 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/not-participated-reason.ts:2:5 - Unnecessarily quoted property 'reason' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/not-participated-reason.ts:2:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/not-participated-reason.ts:2:15 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/not-participated-reason.ts:3:4 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:2:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:2:5 - Unnecessarily quoted property 'Ratings' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:2:16 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:3:5 - Unnecessarily quoted property 'Likes' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:3:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:3:14 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:4:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:4:5 - Unnecessarily quoted property 'DisLikes' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:4:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:7:5 - Unnecessarily quoted property 'Ratings' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:7:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:7:16 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:8:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:8:5 - Unnecessarily quoted property 'Likes' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:8:14 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:9:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:9:5 - Unnecessarily quoted property 'DisLikes' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:9:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/participated-ratings.ts:10:4 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:1:14 - variable name must be in lowerCamelCase, PascalCase or UPPER_CASE
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:3:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:3:9 - Unnecessarily quoted property 'employeeID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:4:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:4:9 - Unnecessarily quoted property 'firstName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:4:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:5:9 - Unnecessarily quoted property 'lastName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:5:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:5:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:6:9 - Unnecessarily quoted property 'emailAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:6:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:6:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:7:9 - Unnecessarily quoted property 'contactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:7:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:8:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:8:9 - Unnecessarily quoted property 'role' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:8:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:11:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:11:9 - Unnecessarily quoted property 'employeeID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:12:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:12:9 - Unnecessarily quoted property 'firstName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:12:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:13:9 - Unnecessarily quoted property 'lastName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:13:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:13:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:14:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:14:9 - Unnecessarily quoted property 'emailAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:14:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:15:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:15:9 - Unnecessarily quoted property 'contactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:16:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:16:9 - Unnecessarily quoted property 'role' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:16:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:19:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:19:9 - Unnecessarily quoted property 'employeeID' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:20:9 - Unnecessarily quoted property 'firstName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:20:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:20:22 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:21:9 - Unnecessarily quoted property 'lastName' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:21:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:21:21 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:22:9 - Unnecessarily quoted property 'emailAddress' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:22:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:22:25 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:23:9 - Unnecessarily quoted property 'contactNumber' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:23:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:24:9 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:24:9 - Unnecessarily quoted property 'role' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:24:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:26:2 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/pmo-details.ts:26:2 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:2:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:3:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:3:5 - Unnecessarily quoted property 'NAME' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:3:13 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:4:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:7:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:8:5 - Unnecessarily quoted property 'NAME' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:8:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:8:13 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:9:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:10:3 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/poc-details.ts:10:3 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/unregistered-reason.ts:2:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/unregistered-reason.ts:2:5 - Unnecessarily quoted property 'reason' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/unregistered-reason.ts:2:15 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/unregistered-reason.ts:3:3 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/unregistered-reason.ts:3:3 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:2:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:2:5 - Unnecessarily quoted property 'Email' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:2:14 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:3:5 - Unnecessarily quoted property 'Password' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:3:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:3:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:4:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:4:5 - Unnecessarily quoted property 'Role' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:4:13 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:8:5 - Unnecessarily quoted property 'Email' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:8:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:8:14 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:9:5 - Unnecessarily quoted property 'Password' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:9:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:9:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:10:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:10:5 - Unnecessarily quoted property 'Role' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:10:13 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:13:5 - Unnecessarily quoted property 'Email' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:13:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:13:14 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:14:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:14:5 - Unnecessarily quoted property 'Password' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:14:17 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:15:5 - Unnecessarily quoted property 'Role' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:15:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:15:13 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:16:3 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/user-credentials.ts:16:3 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:2:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:3:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:3:5 - Unnecessarily quoted property 'VOLUNTEERS' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:4:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:5:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:6:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:7:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:10:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:11:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:11:5 - Unnecessarily quoted property 'VOLUNTEERS' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:12:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:13:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:14:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:15:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:18:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:19:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:19:5 - Unnecessarily quoted property 'VOLUNTEERS' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:20:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:21:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:22:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:23:5 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:25:2 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/mock/volunteering-statistics.ts:25:2 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/shared/pipes/GridFilterPipe.pipe.ts:17:17 - Identifier 'filterKeys' is never reassigned; use 'const' instead of 'let'.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/shared/pipes/GridFilterPipe.pipe.ts:22:105 - == should be ===
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/shared/pipes/GridFilterPipe.pipe.ts:22:108 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/shared/pipes/GridFilterPipe.pipe.ts:24:13 - misplaced 'else'
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/shared/pipes/GridFilterPipe.pipe.ts:27:105 - == should be ===
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/shared/pipes/GridFilterPipe.pipe.ts:27:108 - " should be '
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/app/shared/pipes/GridFilterPipe.pipe.ts:33:2 - file should end with a newline
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/config/app.config.ts:5:13 - Unnecessarily quoted property 'api' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/config/app.config.ts:6:17 - Unnecessarily quoted property 'getOutreachEvents' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/config/app.config.ts:7:17 - Unnecessarily quoted property 'getEventFeedbackDetails' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/config/app.config.ts:8:17 - Unnecessarily quoted property 'validateUserCredentials' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/config/app.config.ts:9:17 - Unnecessarily quoted property 'createNewUser' found.
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/config/app.config.ts:11:10 - Missing semicolon
+ERROR: C:/java cognizant/workspace/S2Assignments/OutReachmanagementUI/src/config/app.config.ts:13:2 - file should end with a newline
+

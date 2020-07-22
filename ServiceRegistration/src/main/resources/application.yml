@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: ServiceRegistration
+  profiles:
+    active: local     
+  

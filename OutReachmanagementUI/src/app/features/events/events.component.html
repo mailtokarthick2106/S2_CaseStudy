@@ -1,0 +1,377 @@
+<div>
+    <div class="panel panel-default panel-width">
+        <!-- Default panel contents -->
+        <div class="navbar navbar-expand-lg panel-header-color"><span class="nav-bar-title-color">ACTIONS</span>
+            <div style="margin-left: 86%;">
+                <button type="button" class="btn btn-primary btn-sm minus-panel-btn-style"><i class="fa fa-minus"
+                        aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-primary btn-sm cross-panel-btn-style"><i class="fa fa-times"
+                        aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-primary btn-sm replay-panel-btn-style"><i class="fa fa-reply"
+                        aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <div class="panel-body">
+            <br>
+
+            <div class="card mb-3 card1-header-color" style="width: 322px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <i class="fa fa-file-excel-o envelope-icon-style" aria-hidden=" true"></i>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body card1-body-color" style="width: 525px;">
+                            <span style="font-weight: bolder;color: #29a3a3;">Email Report</span>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <h6 class="card-title card-title-font-style card1-title-color">Employee ID</h6>
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                                        placeholder="Enter Email Address" aria-label="emailAddress"
+                                        aria-describedby="basic-addon1" (input)="onSearch($event, col)">
+                                </div>
+                                <div class="col-lg-3">
+                                    <button type="button" class="btn btn-primary btn-sm dw-excel-btn-style">Send
+                                        Email</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 card2-header-color" style="margin-left: 25%;width: 307px;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <i class="fa fa-envelope envelope-icon-style" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body card2-body-color" style="width: 519px;">
+                            <span style="font-weight: bolder;color: #007acc;">Email Reminder</span>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <span class="card-title card-title-font-style card2-title-color">Email yet to be
+                                        sent</span>
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control" style="background-color:#e1e1ea;;"
+                                        placeholder="Enter Email Address" aria-label="emailAddress"
+                                        aria-describedby="basic-addon1" (input)="onSearch($event, col)">
+                                </div>
+                                <div class="col-lg-3">
+                                    <button type="button" (click)="onSendMail()"
+                                        class="btn btn-primary btn-sm dw-excel-btn-style">Send
+                                        Email</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="panel panel-default panel-width">
+        <!-- Default panel contents -->
+        <div class="navbar navbar-expand-lg panel-header-color"><span class="nav-bar-title-color">EVENTS</span>
+            <div style="margin-left: 87%;">
+                <button type="button" class="btn btn-primary btn-sm minus-panel-btn-style"><i class="fa fa-minus"
+                        aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-primary btn-sm cross-panel-btn-style"><i class="fa fa-times"
+                        aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-primary btn-sm replay-panel-btn-style"><i class="fa fa-reply"
+                        aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div style="float: right;">
+                <button type="button" class="btn btn-primary btn-sm clear-filter-btn-style"
+                    (click)="onClearFilters()"><i class="fa fa-times" aria-hidden="true"></i>CLEAR FILTERS</button>
+                <button type="button" class="btn btn-primary btn-sm dw-excel-btn-style" #downloadExcel
+                    (click)="exportToExcel()"><i class="fa fa-file-excel-o" aria-hidden="true"></i> DOWNLOAD
+                    EXCEL</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="table-responsive" [formGroup]="eventListForm">
+    <table class="table">
+        <tr>
+            <th>Action</th>
+            <th *ngFor="let col of columns">
+                {{col}}
+            </th>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="eventIdSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="monthSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="baseLocationSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="beneficiaryNameSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="venueAddressSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="councilNameSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="projectSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="categorySearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="eventNameSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="eventDescriptionSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="eventDateSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="totalNoVolunteersSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn"
+                        formControlName="totalVolunteersHoursSearch" aria-describedby="basic-addon1"
+                        (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="totalTravelHoursSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn"
+                        formControlName="overallVolunteeringHoursSearch" aria-describedby="basic-addon1"
+                        (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="livesImpactedSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="activityTypeSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="statusSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="POCIDSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="POCNameSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+            <td class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" formControlName="POCContactNumberSearch"
+                        aria-describedby="basic-addon1" (input)="onSearchChange()">
+                </div>
+            </td>
+        <tr *ngFor="let data of eventData">
+            <td><button type="button" class="btn btn-primary btn-sm" style="background-color: #0033cc;height: 30px;"><i
+                        class="fa fa-eye" aria-hidden="true" style="color: white;"
+                        (click)="onRowSelect(data)"></i>VIEW</button>
+            </td>
+            <td *ngFor="let col of columnMap" class="overflow-wrap-hack">
+                {{data[col]}}
+            </td>
+            <div *ngIf="isSplitPanelOpen && data.EventID === rowData.EventID">
+                <div class="table-responsive">
+                    <table class="table">
+                        <!-- <tr>
+                  <th>Action</th>
+                  <th *ngFor="let col of columns">
+                      {{col}}
+                  </th>
+              </tr> -->
+                        <!-- <tr>
+                 
+                  <td *ngFor="let col of columns" class="overflow-wrap-hack">
+                      <div class="input-group mb-3">
+                          <div class="input-group-prepend">
+      
+                          </div>
+                          <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                              placeholder="filter column" aria-label="filterColumn" aria-describedby="basic-addon1"
+                              (input)="onSearch($event, col)">
+                      </div>
+                  </td>
+              </tr> -->
+
+                        <tr *ngFor="let col of columns; let data of eventDetails;">
+                            {{col}}: {{data[col]}}
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </tr>
+    </table>
+</div>
+<nav aria-label="Page navigation example" style="float: right;">
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">First</a>
+        </li>
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="#">Last</a>
+        </li>
+    </ul>
+</nav>

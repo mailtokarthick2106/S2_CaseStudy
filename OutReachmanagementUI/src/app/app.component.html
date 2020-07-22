@@ -1,0 +1,83 @@
+<div *ngIf="showNavBar === true">
+  <nav class="navbar navbar-expand-lg panel-header-color">
+    <a class="navbar-brand nav-bar-title-color" href="#">Outreach FMS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" style="padding-left: 50px;" id="navbarNav">
+      <ul class=" navbar-nav">
+        <li class=" nav-item active">
+
+          <a class="nav-link nav-bar-title-color" href="/dashboard"><i class="fa fa-tachometer nav-icon-pad-style"
+              aria-hidden="true"></i>Dashboard </a>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link nav-bar-title-color" href="/events"><i class="fa fa-bar-chart nav-icon-pad-style"
+              aria-hidden="true"></i>Events</a>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link nav-bar-title-color" href="/reports"><i class="fa fa-file-excel-o nav-icon-pad-style"
+              aria-hidden="true"></i>Reports</a>
+        </li>
+
+        <li *ngIf="userName==='Admin'" class="nav-item conf-dropdown-style">
+          <div class="nav-item">
+            <div class="dropdown show conf-dropdown-style">
+              <a class="dropdown-toggle conf-dropdown-style" href="#" role="button" id="dropdownMenuLink"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-cog nav-icon-pad-style" aria-hidden="true"></i>Configuration
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item menu-link-size" routerLink="create/forms">Create a Feedback Form</a>
+                <a class="dropdown-item menu-link-size" routerLink="config/pmo">Configure PMO</a>
+                <a class="dropdown-item menu-link-size" routerLink="config/pmo">Configure
+                  POC</a>
+                <!-- <div class="btn-group dropright">
+                  <a class="dropdown-item menu-link-size" routerLink="feedback/questions">FeedBack Questions</a>
+
+                  <a type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span class="sr-only">Toggle Dropright</span>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item menu-link-size" routerLink="create/forms">Participated Feedback Form</a>
+                    <a class="dropdown-item menu-link-size" routerLink="config/pmo">Not Participated Feedback Form</a>
+                    <a class="dropdown-item menu-link-size" routerLink="config/pmo">Unregistered Feedback Form</a>
+                  </div>
+                </div> -->
+
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+
+
+
+      <div class="nav-item dropdown-style" *ngIf="userName">
+        <div class="dropdown show">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="/assets/user-login.png" alt="userAbbreviatedName"
+              class="user-image-style mar-right10 pull-right" />{{userName}}
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item menu-link-size" href="#">Change Password</a>
+            <a class="dropdown-item menu-link-size" href="#">Change Profile Picture</a>
+            <a class="dropdown-item menu-link-size" href="/login" (click)="onSignOut()">Sign Out</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+<router-outlet></router-outlet>
+<span class="copyright-font-style"><i class="fa fa-copyright" aria-hidden="true"></i> Outreach Feedback Management
+  System - Cognizant Outreach.
+  All Rights Reserved</span>

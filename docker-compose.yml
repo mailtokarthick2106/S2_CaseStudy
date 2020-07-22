@@ -1,0 +1,125 @@
+version: '3.3'
+services:
+    dbService:
+        image: mongo:latest
+        container_name: "mongodb"
+        ports:
+            - "27017:27017"
+        networks:
+            - spring-cloud-network
+        volumes:
+            - my-db-volume:./data/db:/data/db
+        environment:
+            - MONGO_DATA_DIR=/data/db
+            - MONGO_LOG_DIR=/dev/null
+            - MONGO_INITDB_ROOT_USERNAME=root
+            - MONGO_INITDB_ROOT_PASSWORD=root
+            - MONGODB_USERNAME=root
+            - MONGODB_PASSWORD=root
+            - MONGODB_DATABASE=OutReach
+        command: mongod --smallfiles --logpath=/dev/null # --quiet 
+    
+    UserAuthenticationService:
+        container_name: UserAuthentication
+        build:
+            context: .
+            dockerfile: ./Auth-Service/Dockerfile-UserAuthentication
+        image: 343609142249.dkr.ecr.us-east-2.amazonaws.com/awss2repoimage/UserAuthentication:latest
+        environment:
+             SPRING_APPLICATION_JSON: '{"spring": {"cloud": {"config": {"uri": "http://config-server:8888"}}}}'
+        entrypoint: /opt/bin/UserAuthentication-entrypoint.sh
+        restart: on-failure
+        expose:
+            - 9300
+        ports:
+            - 9300:9300
+        networks:
+            - spring-cloud-network
+        links:
+            - config-server:config-server
+            - eureka-server:eureka-server
+        depends_on:
+            - "config-server"
+            - "eureka-server"
+            - "dbService"
+        logging:
+            driver: json-file
+    outreachmanagementapi:
+        container_name: outreachmanagementapi
+        build:
+            context: .
+            dockerfile: ./outreachmanagementapi/Dockerfile-outreachmentapi
+        image: 343609142249.dkr.ecr.us-east-2.amazonaws.com/awss2repoimage/outreachmanagementapi:latest
+        environment:
+            SPRING_APPLICATION_JSON: '{"spring": {"cloud": {"config": {"uri": "http://config-server:8888"}}}}'
+        entrypoint: /opt/bin/Outreachmment-entrypoint.sh
+        restart: on-failure
+        expose:
+            - 8083
+        ports:
+            - 8083:8083
+        networks:
+            - spring-cloud-network
+        links:
+            - config-server:config-server
+            - eureka-server:eureka-server
+        depends_on:
+            - "config-server"
+            - "eureka-server"
+            - "dbService"
+        logging:
+            driver: json-file
+    eureka-server:
+        container_name: eureka-server
+        build:
+            context: .
+            dockerfile: ./ServiceRegistration/Dockerfile-EurekaServer
+        image: 343609142249.dkr.ecr.us-east-2.amazonaws.com/awss2repoimage/eureka-server:latest
+        expose:
+            - 8761
+        ports:
+            - 8761:8761
+        networks:
+            - spring-cloud-network
+    ZuulServer:
+        container_name: ZuulServer
+        build:
+            context: .
+            dockerfile: ./ServiceAPIGateway/Dockerfile-ZuulServer
+        image: 343609142249.dkr.ecr.us-east-2.amazonaws.com/awss2repoimage/ZuulServer:latest
+        entrypoint: /opt/bin/ServiceAPIGateway-entrypoint.sh
+        expose:
+            - 8765
+        ports:
+            - 8765:8765
+        networks:
+            - spring-cloud-network
+        links:
+            - eureka-server:eureka-server
+        depends_on:
+            - eureka-server
+        logging:
+            driver: json-file
+    config-server:
+        container_name: config-server
+        build:
+            context: .
+            dockerfile: ./ConfigServer/Dockerfile-configserver
+        image: 343609142249.dkr.ecr.us-east-2.amazonaws.com/awss2repoimage/config-server:latest
+        expose:
+            - 8888
+        ports:
+            - 8888:8888
+        networks:
+            - spring-cloud-network
+        volumes:
+            - config-repo:/var/lib/config-repo
+        logging:
+            driver: json-file
+networks:
+    spring-cloud-network:
+        driver: bridge
+volumes:
+    my-db-volume:
+    config-repo:
+        external: false

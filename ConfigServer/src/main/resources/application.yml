@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: MicroserviceConfigServer
+  profiles:
+    active:
+      -   native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+            - file:///${user.home}/config-repo
+        bootstrap: true
+  security:
+    user:
+      roles:
+        - ADMIN
+      name: root
+      password: s3cr3t
+server:
+  port: 8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: /management
+  server:
+    port: 8191 
+           
+ 
+   
+  

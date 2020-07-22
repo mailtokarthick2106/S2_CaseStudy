@@ -1,0 +1,291 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app: AngularUserInterface
+  name: AngularUserInterface
+spec: 
+  clusterIP: None
+  ports:
+  - name: AngularUserInterface-service
+    port: 4200
+    targetPort: 4200
+  selector: 
+    app: AngularUserInterface
+#---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: AngularUserInterface
+  labels:
+    app: AngularUserInterface
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: AngularUserInterface
+  template:
+    metadata:
+      labels:
+        app: AngularUserInterface
+    spec:
+      containers:
+      - name: AngularUserInterface
+        image: 343609142249.dkr.ecr.us-east-2.amazonaws.com/awss2repoimage/AngularUserInterface:latest
+        ports:
+        - containerPort: 4200
+          name: AngularUserInterface
+# db
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app: db
+  name: db
+spec: 
+  clusterIP: None
+  ports: 
+  - name: db
+    port: 5432
+    targetPort: 5432
+  selector: 
+    app: db
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: db
+  labels:
+    app: db
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: db
+  template:
+    metadata:
+      labels:
+        app: db
+    spec:
+      containers:
+      - name: db
+        image: postgres:9.4
+        env:
+        - name: PGDATA
+          value: /var/lib/postgresql/data/pgdata
+        ports:
+        - containerPort: 5432
+          name: db
+        volumeMounts:
+        - name: db-data
+          mountPath: /var/lib/postgresql/data
+      volumes:
+      - name: db-data
+        persistentVolumeClaim:
+          claimName: postgres-pv-claim
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: postgres-pv-claim
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+# outreachmanagementapi
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: outreachmanagementapi
+  labels:
+    app: outreachmanagementapi
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 5001
+    targetPort: 8083
+    name: outreachmanagementapi-service
+  selector:
+    app: outreachmanagementapi
+#---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: outreachmanagementapi
+  labels:
+    app: outreachmanagementapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: outreachmanagementapi
+  template:
+    metadata:
+      labels:
+        app: outreachmanagementapi
+    spec:
+      containers:
+      - name: outreachmanagementapi
+        image: 343609142249.dkr.ecr.us-east-2.amazonaws.com/awss2repoimage/outreachmanagementapi:latest
+        ports:
+        - containerPort: 8083
+          name: outreachmanagementapi
+# UserAuthentication
+apiVersion: v1
+kind: Service
+metadata:
+  name: UserAuthentication
+  labels:
+    apps: UserAuthentication
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 5000
+      targetPort: 9300
+      name: UserAuthentication-service
+  selector:
+    app: UserAuthentication
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: UserAuthentication
+  labels:
+    app: UserAuthentication
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: UserAuthentication
+  template:
+    metadata:
+      labels:
+        app: UserAuthentication
+    spec:
+      containers:
+      - name: UserAuthentication
+        image: dockersamples/examplevotingapp_vote:before
+        ports:
+        - containerPort: 9300
+          name: UserAuthentication
+# eureka-server
+apiVersion: v1
+kind: Service
+metadata:
+  name: eureka-server
+  labels:
+    apps: eureka-server
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 5000
+      targetPort: 8761
+      name: eureka-server
+  selector:
+    app: eureka-server
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eureka-server
+  labels:
+    app: eureka-server
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: eureka-server
+  template:
+    metadata:
+      labels:
+        app: eureka-server
+    spec:
+      containers:
+      - name: eureka-server
+        image: 343609142249.dkr.ecr.us-east-2.amazonaws.com/awss2repoimage/eureka-server:latest
+        ports:
+        - containerPort: 8761
+          name: eureka-server
+# ZuulServer
+apiVersion: v1
+kind: Service
+metadata:
+  name: ZuulServer
+  labels:
+    apps: ZuulServer
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 5000
+      targetPort: 8765
+      name: ZuulServer
+  selector:
+    app: ZuulServer
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ZuulServer
+  labels:
+    app: ZuulServer
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ZuulServer
+  template:
+    metadata:
+      labels:
+        app: ZuulServer
+    spec:
+      containers:
+      - name: ZuulServer
+        image: 343609142249.dkr.ecr.us-east-2.amazonaws.com/awss2repoimage/ZuulServer:latest
+        ports:
+        - containerPort: 8765
+          name: eureka-server
+# ZuulServer
+apiVersion: v1
+kind: Service
+metadata:
+  name: config-server
+  labels:
+    apps: config-server
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 5000
+      targetPort: 8765
+      name: config-server
+  selector:
+    app: config-server
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: config-server
+  labels:
+    app: config-server
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: config-server
+  template:
+    metadata:
+      labels:
+        app: ZuulServer
+    spec:
+      containers:
+      - name: config-server
+        image: 343609142249.dkr.ecr.us-east-2.amazonaws.com/awss2repoimage/config-server:latest
+        ports:
+        - containerPort: 8888
+          name: config-server          
+                  
+       
+ 
+ 

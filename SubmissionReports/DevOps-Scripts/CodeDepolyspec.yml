@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+files:
+  - source: aws s3 cp s3://hwcodebuildbucket/HWJavaWebTarget/target/AWS-HelloWorld-1.0.0.war /opt/niranjan
+    destination: /
+hooks:
+  BeforeInstall:
+    - location: apache_stop.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: afterinstall.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: apache_start.sh
+      timeout: 300
+      runas: root

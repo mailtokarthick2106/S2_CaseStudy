@@ -1,0 +1,24 @@
+
+db.Roles.insertOne(
+   {"name":"ADMIN", "description" : "Admin Role"}
+)
+
+
+db.Roles.insertOne(
+   {"name":"USER", "description" : "Admin Role"}
+)
+
+db.Users.insertOne(
+   {"username" : "Alex111",
+     "password" : "$2a$04$I9Q2sDc4QGGg5WNTLmsz0.fvGv3OjoZyj81PrSFyGOqMphqfS2qKu",
+     "email" : "karthick.sacs@gmail.com",
+     "firstName" : "Karthick",
+     "lastname" : "Raj",
+     "roles" : [
+           {"name":"ADMIN",
+             "description":"Admin Role"},
+	{"name":"USER",
+             "description":"User Role"}
+
+   ]
+})

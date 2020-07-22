@@ -1,0 +1,46 @@
+<div class="container-fluid container-style">
+    <div class="row row-style">
+        <div class="col-md-9">
+
+
+
+        </div>
+        <div class="col-md-3 card-align-right">
+            <img src="/assets/outreach-logo.png" class="logo-style" />
+
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+				<div class="form-group" >
+					<label for="emailaddress">Email:</label> <input type="text"
+						class="form-control" formControlName="emailaddress"
+						id="emailaddress" autocomplete="off">
+					<div class="error"
+						*ngIf="loginForm.controls['emailaddress'].hasError('required') && loginForm.controls['emailaddress'].touched">Email
+						is required</div>
+				</div>
+				<div class="form-group">
+					<label for="username">Password:</label> <input type="password"
+						class="form-control" formControlName="password" id="password"
+						autocomplete="off">
+					<div class="error"
+						*ngIf="loginForm.controls['password'].hasError('required') && loginForm.controls['password'].touched">Password
+						is required</div>
+				</div>
+				<div class="form-group">
+                    <input type="checkbox" aria-label="Checkbox for following text input"
+                        style="margin-right:2%;"><label for="password">Remember
+                        Me</label>
+                </div>
+                <button class="btn btn-success" [disabled]="loginForm.invalid">Login</button>
+				<div *ngIf="invalidLogin" class="error">
+					<div>Invalid credentials.</div>
+				</div>
+				<span class="signup-font-style"> Interested in Outreach <a routerLink="/signup"
+                        class="signup-font-style btn btn-link">Click here</a> to register for
+                    future events.</span>
+            </form>
+
+
+        </div>
+    </div>
+</div>
