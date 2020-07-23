@@ -22,7 +22,7 @@ public class User {
 	@Id ObjectId databaseId;
     private long id;
     private String firstName;
-    private String lastName;
+    private String lastname;
     private String username;
     private String password;
     private String email;
@@ -33,8 +33,9 @@ public class User {
         userDto.setId(this.id);
         userDto.setEmail(this.email);
         userDto.setFirstName(this.firstName);
-        userDto.setLastName(this.lastName);
+        userDto.setLastName(this.lastname);
         userDto.setUsername(this.username);
+        userDto.setPassword(this.password);
         userDto.setRoles(this.roles.stream().map(roles -> roles.getName().toString()).collect(Collectors.toList()));
         return userDto;
     }

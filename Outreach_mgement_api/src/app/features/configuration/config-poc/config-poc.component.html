@@ -1,0 +1,17 @@
+<div class="table-responsive overflow-wrap-hack">
+    <table class="table">
+        <tr class="row-bg-color">
+
+            <th class="td-border-color">#</th>
+            <th *ngFor="let col of columns" class="td-border-color">
+                {{col}}
+            </th>
+        </tr>
+        <tr *ngFor="let data of pocDetails, let i = index">
+            <td>{{i+1}}</td>
+            <td *ngFor="let col of columns">
+                {{data[col]}}
+            </td>
+        </tr>
+    </table>
+</div>

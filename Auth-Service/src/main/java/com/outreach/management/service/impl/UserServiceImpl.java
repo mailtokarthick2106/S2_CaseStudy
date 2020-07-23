@@ -89,7 +89,7 @@ public class UserServiceImpl implements UserDetailsService, UserService {
         User user = new User();
         user.setEmail(userDto.getEmail());
         user.setFirstName(userDto.getFirstName());
-        user.setLastName(userDto.getLastName());
+        user.setLastname(userDto.getLastName());
         user.setUsername(userDto.getUsername());
         user.setPassword(passwordEncoder.encode(userDto.getPassword()));
         List<RoleType> roleTypes = new ArrayList<>();

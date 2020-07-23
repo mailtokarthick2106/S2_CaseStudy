@@ -1,0 +1,87 @@
+<div class="panel panel-default panel-width">
+    <!-- Default panel contents -->
+    <div class="navbar navbar-expand-lg panel-header-color"><span class="nav-bar-title-color">ASSIGN PMO</span>
+        <div style="margin-left: 84%;">
+            <button type="button" class="btn btn-primary btn-sm minus-panel-btn-style"><i class="fa fa-minus"
+                    aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-primary btn-sm cross-panel-btn-style"><i class="fa fa-times"
+                    aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-primary btn-sm replay-panel-btn-style"><i class="fa fa-reply"
+                    aria-hidden="true"></i></button>
+        </div>
+    </div>
+    <div class="panel-body row margin-row">
+        <div class="col-lg-3">
+            <span style="font-weight: bolder;color: #007acc;">Employee ID</span>
+        </div>
+        <div class="col-lg-5">
+            <input type="text" class="form-control" style="background-color: #e1e1ea;width: 100%;"
+                placeholder="Enter Email Address" aria-label="emailAddress" aria-describedby="basic-addon1"
+                (input)="onSearch($event, col)">
+        </div>
+        <div class="col-lg-4">
+            <button type="button" class="btn btn-success">Add PMO</button>
+            <button type="button" class="margin btn btn-danger margin-left-btn">Remove PMO</button>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<div class="panel panel-default panel-width">
+    <!-- Default panel contents -->
+    <div class="navbar navbar-expand-lg panel-header-color"><span class="nav-bar-title-color">PMO USERS
+        </span>
+        <div style="margin-left: 84%;">
+            <button type="button" class="btn btn-primary btn-sm minus-panel-btn-style"><i class="fa fa-minus"
+                    aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-primary btn-sm cross-panel-btn-style"><i class="fa fa-times"
+                    aria-hidden="true"></i></button>
+            <button type="button" class="btn btn-primary btn-sm replay-panel-btn-style"><i class="fa fa-reply"
+                    aria-hidden="true"></i></button>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div style="float: right;">
+            <button type="button" class="btn btn-primary btn-sm clear-filter-btn-style"><i class="fa fa-times"
+                    aria-hidden="true"></i>CLEAR FILTERS</button>
+            <button type="button" class="btn btn-primary btn-sm dw-excel-btn-style"><i class="fa fa-file-excel-o"
+                    aria-hidden="true"></i> DOWNLOAD EXCEL</button>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                    <th *ngFor="let col of columns">
+                        {{col}}
+                    </th>
+                </tr>
+                <tr *ngFor="let data of pmoDetailsData">
+                    <td *ngFor="let col of columns" class="overflow-wrap-hack">
+                        {{data[col]}}
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <nav aria-label="Page navigation example" style="float: right;">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">First</a>
+                </li>
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Last</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>

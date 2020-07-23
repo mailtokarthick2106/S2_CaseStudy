@@ -1,0 +1,56 @@
+font-size-body{
+    font-size: 30px;
+}
+.font-size-head {
+    font-size: 15px;
+}
+.bg-color-black {
+    background-color: rgba(0, 0, 0, 0.842);
+
+}
+.btn-default {
+    height: 150px;
+}
+.btn-default:hover
+{
+background-color:#600080 !important;
+}
+.border-none {
+    border: 0;
+}
+.width15 {
+    width: 15%;
+}
+.button-style {
+    margin-top: 30px;
+    padding-right: 50px;
+}
+.font-size25 {
+    font-size: 25px;
+    color: white;
+}
+.font-style-title-txt{
+    font-size: medium;
+    color: white;
+}
+
+.fa-send:before, .fa-paper-plane:before {
+    content: "\f1d8";
+    margin-right: 8px;
+    font-size: 18px;
+    bottom: -76px;
+    top: 23px;
+}
+.reset-style {
+    padding: 0;
+    width: 8%;
+}
+.submit-style {
+    width: 9%;
+    padding-left: 0;
+}
+.card-deck {
+    margin-left: 15px;
+    margin-right: 0;
+}
+

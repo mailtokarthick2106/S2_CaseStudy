@@ -1,0 +1,84 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<div class="col-md-2" [formGroup]="addForm">
+  <br>
+  <div class="card pmd-card border-none body-width">
+    <div class="card-body bg-color-blue">
+      <h4 class="card-title font-color font-size-head">Edit Question: Hey there, Please share your feedback for
+        unregistering from the event?</h4>
+    </div>
+  </div>
+
+  <div class="form-group form-width">
+    <table class="table table-hover body-width">
+      <tbody>
+        <tr class="bg-color-none">
+          <td class="rowWidth">
+            <h5>Feedback Type</h5>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Allow Multiple Answers</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="">Free Text Answers</label>
+            </div>
+            <div class="checkbox disabled">
+              <label><input type="checkbox" value="" disabled>Custom Questions</label>
+            </div>
+          </td>
+          <td class="rowBorder">
+            <label class="radio-inline participatedStyle"><input type="radio" name="optradio"
+                checked>Participated</label>
+            <label class="radio-inline participatedStyle"><input type="radio" name="optradio">Not Participated</label>
+            <label class="radio-inline participatedStyle"><input type="radio" name="optradio">Unregistered</label>
+          </td>
+        </tr>
+        <tr class="bg-color-none inp-cntrl-width">
+          <td class="rowWidth">
+            <h5>Questions</h5>
+          </td>
+          <td class="rowBorder">
+            <input type="text" class="form-control" id="question" value=" Hey there, Please share your feedback for
+        unregistering from the event?" disabled=true>
+          </td>
+        </tr>
+
+        <tr *ngFor="let row of addForm.get('rows')?.controls;let index = index;">
+          <td class="rowWidth">
+            <h5>Answer {{index+1}}</h5>
+          </td>
+          <td>
+            <input type="text" class="form-control" [formControl]="row.get('description')">
+          </td>
+          <td>
+            <button type="button" class="btn btn-default border-none width45 button-color-orange button-height"
+              (click)="onRemoveRow(index)">
+              <h6 class="font-color">DELETE ANSWER</h6>
+            </button>
+          </td>
+        </tr>
+        <tr class="bg-color-none">
+          <td class="rowBorder">
+            <button type="button" class="btn btn-default border-none width45 button-color-green button-height"
+              (click)="onAddRow()">
+              <h6 class="font-color">ADD ANSWER</h6>
+            </button>
+          </td>
+          <td class="rowBorder">
+            <button type="button" class="btn btn-default border-none width15 button-color-blue button-height-page">
+              <h6 class="font-color">SAVE</h6>
+            </button>
+            <button type="button"
+              class="btn btn-default border-none width15 button-color-grey margin-left-button button-height-page">
+              <h6 class="font-color">CANCEL</h6>
+            </button>
+            <button type="button"
+              class="btn btn-default border-none width15 button-color-red margin-left-button button-height-page">
+              <h6 class="font-color">DELETE</h6>
+            </button>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+</div>

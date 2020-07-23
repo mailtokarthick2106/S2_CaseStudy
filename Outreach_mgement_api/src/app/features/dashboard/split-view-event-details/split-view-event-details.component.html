@@ -1,0 +1,27 @@
+<div class="table-responsive">
+    <table class="table">
+        <!-- <tr>
+            <th>Action</th>
+            <th *ngFor="let col of columns">
+                {{col}}
+            </th>
+        </tr> -->
+        <!-- <tr>
+           
+            <td *ngFor="let col of columns" class="overflow-wrap-hack">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+
+                    </div>
+                    <input type="text" class="form-control" style="background-color: #e1e1ea;"
+                        placeholder="filter column" aria-label="filterColumn" aria-describedby="basic-addon1"
+                        (input)="onSearch($event, col)">
+                </div>
+            </td>
+        </tr> -->
+
+        <tr *ngFor="let col of columns; let data of eventDetails;">
+            {{col}}: {{data[col]}}
+        </tr>
+    </table>
+</div>
